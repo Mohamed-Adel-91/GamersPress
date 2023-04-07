@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #14324b;
+    color:#fff;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+fieldset{
+    margin: 2em 0;
+    padding: 1em 2em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    min-width: 200px;
+}
+
+legend{
+    font-size: 1.25em;
+    padding: 0.25em;
+    color: #999;
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+}
+
+.checks label{
+    margin-top: 0;
+}
+
+label:first-of-type{
+    margin-top: 0;
+}
+
+input {
+    padding: .5em;
+    border: 1px solid #999;
+}
+
+input[type="email"], input[type="text"]{
+    width: 15em;
+}
+
+textarea{
+    min-height: 8em;
+    min-width: 100%;
+    padding: 0.5em;
+    border:1px solid #999;
+}
+
+.checks {
+    margin: 1em;
+}
+
+.checks p{
+    margin-bottom: 0;
+}
+
+input[type="checkbox"] + label, input[type="radio"] + label{
+    display: inline-block;
+    padding-top: 0;
+    margin-top: 0; 
+
+}
+
+input[type="radio"] {
+    margin-left: 1em;
+    margin-right: 0;
+}
+
+input[type="radio"]:first-of-type{
+    margin-left: 0;
+}
+
+input[type="submit"]{
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.8em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* large screen rules */
+
+@media screen and (min-width: 430px) {
+    legend{
+        font-size: 1.75em;
+    }
+
+    fieldset{
+        width: 40%;
+        min-width: 320px;
+        margin: auto;
+    }
+
+    .checks label{
+        display: inline-block;
+        padding-top: 0.5em;
+        margin-top: 0;
+        margin-right: 0.5em;
+    }
+}
+
+.submit {
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    border: #333 1px solid;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.8em;
+    font-family: 'Montserrat', sans-serif;
+}

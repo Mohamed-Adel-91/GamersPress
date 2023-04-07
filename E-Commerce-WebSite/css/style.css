@@ -1,0 +1,125 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+li, a, button{
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #f0ffff;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #55adce;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #6b6b6b;
+    color: #f0ffff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: #282b2b;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: #14324b;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+body section table tr td {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+}
+
+body section table tr td a {
+    text-decoration: none;
+}
+
+body section table tr td a img{
+    margin: auto;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+body section table tr td a span {
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: #14324b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease 0s;
+}
+
+body section table tr td a span:hover {
+    color: #55adce;
+}
+
+body section img {
+    margin: auto;
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.footer{
+    background-color: #14324b;
+    color: white;
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer span{
+    font-weight: bold;
+    color: #55adce;
+}
