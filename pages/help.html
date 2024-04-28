@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/css/help_style.css" />
+        <title>Help Form</title>
+    </head>
+    <body>
+        <header>
+            <img
+                class="logo"
+                src="/images/logo/logo.png"
+                width="90"
+                alt="GamersPress_Logo"
+            />
+            <h1>Help Disk</h1>
+        </header>
+        <section>
+            <form action="#">
+                <fieldset>
+                    <legend>Help Form</legend>
+                    <label for="fname">First Name</label>
+                    <input
+                        type="text"
+                        placeholder="First Name"
+                        id="fname"
+                        required
+                    />
+                    <label for="lname">Last Name</label>
+                    <input
+                        type="text"
+                        placeholder="Last Name"
+                        id="lname"
+                        required
+                    />
+                    <label for="phone">Phone Number</label>
+                    <input
+                        type="tel"
+                        maxlength="11"
+                        size="11"
+                        id="phone"
+                        placeholder="Phone Number"
+                    />
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="example@ex.com"
+                        required
+                    />
+                    <br />
+                    <br />
+                    <hr />
+                    <br />
+                    <div>
+                        <label for="email">How can we help you ?</label>
+                        <br />
+                        <textarea
+                            rows="10"
+                            cols="30"
+                            placeholder="Enter Your Problem Here"
+                        ></textarea>
+                    </div>
+                    <div class="checks">
+                        <input
+                            type="checkbox"
+                            value="I'm Not Reboot"
+                            id="not_reboot"
+                            required
+                        />
+                        <label for="not_reboot">I'm Not Reboot</label>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Submit" />
+                        <a href="/main.html ">Back to Home ></a>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </body>
+</html>
